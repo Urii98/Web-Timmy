@@ -461,6 +461,11 @@ text-align:center;
 
 color: #000;
 }
+.hero-caption2{
+	text-align:center;
+	padding:0px;
+	background-color: #FFFFFF;
+}
  .fa-angle-down {
     position: absolute;
     left: 50%;
@@ -763,11 +768,13 @@ background-color: #D7D7D7;border-radius: 0;color: #fff;}
 #quote-carousel .carousel-control.left 
 {
   left: -12px;
+  
 }
 /* Next button  */
 #quote-carousel .carousel-control.right 
 {
   right: -12px !important;
+  
 }
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators 
@@ -867,8 +874,7 @@ background-color: #D7D7D7;border-radius: 0;color: #fff;}
 @media (max-width: 768px) { 
     
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-    
-    #quote-carousel .carousel-indicators {
+        #quote-carousel .carousel-indicators {
         bottom: -20px !important;  
     }
     #quote-carousel .carousel-indicators li {
@@ -1147,4 +1153,71 @@ z-index: -1;}
 
 .left-align {
 	text-align: left;
+}
+
+
+/*carousel*/
+.carousel-fade .carousel-inner .item {
+	transition-property: opacity;
+  }
+  .carousel-fade .carousel-inner .item,
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+	opacity: 0;
+  }
+  .carousel-fade .carousel-inner .active,
+  .carousel-fade .carousel-inner .next.left,
+  .carousel-fade .carousel-inner .prev.right {
+	opacity: 1;
+  }
+  .carousel-fade .carousel-inner .next,
+  .carousel-fade .carousel-inner .prev,
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+	left: 0;
+	transform: translate3d(0,0,0);
+  }
+  .carousel-fade .carousel-control {
+	z-index: 2;
+  }
+  .carousel,
+  .carousel-inner,
+  .carousel-inner .item {
+	height: 100%;
+  }
+  .item:nth-child(1) {
+	background: rgba(139, 0, 0, 0);
+  }
+  .item:nth-child(2) {
+	background: rgba(255, 0, 0, 0);
+  }
+  .item:nth-child(3) {
+	background: orange;
+  }
+  .caption {
+  position: absolute;
+	
+  top: 64%;
+	right: 0;
+	padding: 25px; 
+	padding-left: 25px; 
+	left: 0;
+  }
+  .carousel-fade .carousel-control {
+	z-index: 2;
+	font-size: 90px;
+	top: 38%;
+  }
+  .carousel-indicators li { 
+	background-color: rgba(0,0,0,0);
+	border: 1px solid #FEE16F;
+	border-radius: 0;
+  }
+  .carousel-indicators .active { 
+	background-color: #FEE16F;
+  }
+  .gif-overlay {
+	position: absolute;
+	top: 570px;
+	left: 1370px;
 }
