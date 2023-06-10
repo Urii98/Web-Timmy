@@ -1192,7 +1192,7 @@ z-index: -1;}
 	background: rgba(255, 0, 0, 0);
   }
   .item:nth-child(3) {
-	background: orange;
+	background: rgba(255, 166, 0, 0);
   }
   .caption {
   position: absolute;
