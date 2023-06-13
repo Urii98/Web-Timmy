@@ -254,6 +254,33 @@ color: #f19a36;
     color: #ffffff;
   }
 
+  .section-background-portal2 {
+    background-image: url("/images/librodef.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    color: #ffffff;
+  }
+
+  .section-background-portal4 {
+    background-image: url("/images/libro1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    color: #ffffff;
+  }
+
+  .section-background-portal3 {
+    background-image: url("/images/TitleScreen.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    color: #ffffff;
+  }
+
   .section-background-features {
     background-image: url("/images/—Pngtree—forest\ mysterious\ tree\ background_2383685.png");
     background-size: cover;
@@ -265,6 +292,15 @@ color: #f19a36;
 
   .section-background-gallery {
     background-image: url("/images/bg10.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    color: #ffffff;
+  }
+
+  .section-background-gallery2 {
+    background-image: url("/images/bg120.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
