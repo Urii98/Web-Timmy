@@ -272,6 +272,14 @@ color: #f19a36;
     color: #ffffff;
   }
 
+  .section-background-portal {
+    background-image: url("/images/Controls/teclado.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    color: #ffffff;
+  }
 
   
   .section-content {
