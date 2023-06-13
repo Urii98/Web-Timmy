@@ -1241,3 +1241,74 @@ z-index: -1;}
 	top: 770px;
 	left: 1347px;
 }
+
+.page_section.team {
+    padding: 60px 0;
+}
+
+.page_section.team h6 {
+    margin-bottom: 40px;
+}
+
+.page_section.team{
+	padding: 40px 0;
+}
+
+	
+/* Team
+---------------------------------*/
+.team_section {
+    max-width: 993px;
+    margin: 0 auto;
+}
+
+#aboutUs {
+    padding: 60px 0;
+}
+.img-circle {
+border-radius: 0%;
+}
+.team .member {
+padding-bottom: 100px;
+}
+.author-avatar {
+float: left;
+max-height: 200px;
+max-width: 200px;
+}
+.member-details {
+padding-left: 230px;
+}
+.member-top {
+position: relative;
+}
+.member-details p {
+margin: 0px;
+padding: 20px 0px;
+}
+.designation {
+display: inline-block;
+padding-bottom: 5px;
+font-size: .81em;
+color: #b2b2b2;
+letter-spacing: .4px;
+}
+.member-social-link a {
+border-radius: 4px;
+display: inline-block;
+height: 32px;
+width: 32px;
+text-align: center;
+line-height: 32px;
+font-size: .9em;
+margin-right: 6px;
+-webkit-transition: all .25s ease;
+-moz-transition: all .25s ease;
+-ms-transition: all .25s ease;
+-o-transition: all .25s ease;
+transition: all .25s ease;
+}
+
+.team_area {
+	width: 99%;
+	}
